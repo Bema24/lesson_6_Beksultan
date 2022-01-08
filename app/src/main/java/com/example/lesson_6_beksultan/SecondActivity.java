@@ -18,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
         textView = findViewById(R.id.textView44);
-        int position = getIntent().getIntExtra("Africa14", 0);
+        int position = getIntent().getIntExtra("Africa15", 0);
         String.valueOf(position);
         switch (position){
             case 0:
